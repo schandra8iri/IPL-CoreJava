@@ -13,3 +13,24 @@ GIT
 	git status 
 	git branch
 	git branch -a
+
+	
+	
+	
+
+	
+	
+		
+JAVA
+
+
+#Java class structure : 
+
+Package
+
+main 
+
+Public
+
+Static 
+- Cannot reference a non-static method from a static method
