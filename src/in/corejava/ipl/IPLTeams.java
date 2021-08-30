@@ -11,27 +11,16 @@ public class IPLTeams {
 
 		System.out.println("************* IPL 2021 *************");
 		
-		printTeams();
-
+		TeamCSK csk = new TeamCSK();
+		csk.printTeam();
+		
+		
+		TeamRCB rcb = new TeamRCB();
+		rcb.printTeam();
+	
 	
 	}
-	
-	public static void printTeams() {
-		
-		System.out.println("************* IPL TEAM - ROYAL CHALLENGERS BANGALORE *************");
-		System.out.println("CAPTAIN - Virat Koli");
-		System.out.println("WICKET KEEPER - AB de villers");
-		System.out.println("BATSMAN - DevDUtt Padikal");
-		System.out.println("BOWLER - Yuzvendra Chahal");
-		
-		
-		System.out.println("************* IPL TEAM - CHENNAI SUPER KINGS *************");
-		System.out.println("CAPTAIN - MS Dhoni");
-		System.out.println("WICKET KEEPER - MS Dhoni");
-		System.out.println("BATSMAN - Ambati Raidu");
-		System.out.println("BOWLER - Ravindra jadeja");
+			
 
-		
-	}
 
 }
